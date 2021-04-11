@@ -1,1 +1,1 @@
-# posters-css-html
+# German posters created with Html and CSS
