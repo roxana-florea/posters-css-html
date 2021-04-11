@@ -1,0 +1,106 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-family:  sans-serif;
+}
+
+.main-container {
+  width: 700px;
+  height: 850px;
+  background-color: rgb(252,230,219);
+}
+
+.colored-rectangles {
+  width: 700px;
+  height: 300px;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blue {
+  width: 300px;
+  height: 400px;
+  background-color: rgb(20,134,204);
+}
+
+.red {
+  width: 200px;
+  height: 400px;
+  background-color: rgb(252,24,49);
+}
+
+.triangle-top {
+  width: 0;
+  height: 0px;
+  border-bottom: 150px solid black;
+  border-right: 110px solid transparent;
+  position: relative;
+  top: -450px;
+  left: 390px;
+}
+
+.black {
+  background-color: black;
+  height: 480px;
+  width: 110px;
+  position: relative;
+  top: -450px;
+  left: 390px;
+}
+
+.triangle-bottom {
+  height: 0px;
+  width: 0px;
+  border-bottom: 200px solid transparent;
+  border-right: 90px solid black;
+  position: relative;
+  top: -450px;
+  left: 330px;
+}
+
+.black-small-rectangle {
+  width: 80px;
+  height: 200px;
+  background-color: black;
+  position: relative;
+  top: -650px;
+  left: 420px;
+}
+
+.text-container {
+    position: relative;
+    top: -940px;
+    width: 280px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.text-container p {
+    font-size: 15px;
+    margin-top: -5px;
+    width: 250px;
+    word-spacing: 3px;
+    font-family: sans-serif, Verdana;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.text-container h1 {
+    font-weight: bold;
+    font-size: 45px;
+    letter-spacing: -2px;
+    line-height: 40px;
+}
+
+.lonely-text {
+ font-size: 15px;
+ word-spacing: 3px;
+font-family: sans-serif, Verdana;
+font-weight: 600;
+letter-spacing: -1px;
+margin-top: -1050px;
+margin-left: 530px;
+position: absolute;
+}
