@@ -1,0 +1,201 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif, Verdana;
+}
+
+.main-container {
+  width: 1000px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  font-weight: bold;
+  background-color: rgb(223, 210, 204);
+}
+
+.text-container {
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.little-text {
+    position: absolute;
+    left: 880px;
+    top: 130px;
+    font-size: 15px;
+}
+
+.crazy-stuff-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1.5fr 2fr 1fr 1.5fr 0.5fr 1fr 1.5fr 2fr 1fr 1.5fr 0.5fr 1fr 1.5fr 2fr 1fr 1.5fr;
+  grid-template-rows: 500px;
+  margin: 60px 20px 20px 20px;
+}
+
+.nest {
+    background-image: url('https://www.transparenttextures.com/patterns/soft-wallpaper.png');
+
+}
+
+/* thinnest line */
+.thin div:first-child {
+  height: 70%;
+}
+
+.thin div:nth-child(2) {
+  height: 20%;
+}
+
+.thin div:nth-child(3) {
+  height: 10%;
+}
+
+/* not-so thin line down*/
+
+.not-so-thin-down div:first-child {
+  height: 55%;
+}
+
+.not-so-thin-down div:nth-child(2) {
+  height: 30%;
+}
+
+.not-so-thin-down div:nth-child(3) {
+  height: 15%;
+}
+
+/* not-so thin line up*/
+
+.not-so-thin-up div:first-child {
+  height: 15%;
+}
+
+.not-so-thin-up div:nth-child(2) {
+  height: 25%;
+}
+
+.not-so-thin-up div:nth-child(3) {
+  height: 60%;
+}
+
+/* thick down line */
+
+.thick-down div:first-child {
+  height: 40%;
+}
+
+.thick-down div:nth-child(2) {
+  height: 40%;
+}
+
+.thick-down div:nth-child(3) {
+  height: 20%;
+}
+
+/* thick up line */
+.thick-up div:first-child {
+  height: 10%;
+}
+
+.thick-up div:nth-child(2) {
+  height: 15%;
+}
+
+.thick-up div:nth-child(3) {
+  height: 75%;
+}
+
+/* thick line */
+.thick div:first-child {
+  height: 25%;
+}
+
+.thick div:nth-child(2) {
+  height: 37.5%;
+}
+
+.thick div:nth-child(3) {
+  height: 37.5%;
+}
+
+/* colors */
+
+/* black-grey-purple */
+.black-grey-purple div:first-child {
+  background-color: black;
+}
+.black-grey-purple div:nth-child(2) {
+  background-color: rgb(111, 110, 106);
+}
+.black-grey-purple div:nth-child(3) {
+  background-color: rgb(59, 39, 67);
+}
+
+/* pink-grey */
+.pink-grey div:first-child {
+  background-color: rgb(189, 57, 178);
+}
+.pink-grey div:nth-child(2) {
+  background-color: rgb(184, 177, 174);
+}
+.pink-grey div:nth-child(3) {
+  background-color: rgb(202, 101, 184);
+}
+
+/* white-black-grey */
+.white-black-grey div:first-child {
+    background-color: white;
+  }
+  .white-black-grey div:nth-child(2) {
+    background-color: black;
+  }
+  .white-black-grey div:nth-child(3) {
+    background-color: rgb(111, 110, 106);
+  }
+
+  /* purple-pink-grey */
+
+.purple-pink-grey div:first-child {
+    background-color: rgb(59, 39, 67);
+  }
+  .purple-pink-grey div:nth-child(2) {
+    background-color: rgb(189, 57, 178);;
+  }
+  .purple-pink-grey div:nth-child(3) {
+    background-color:rgb(184, 177, 174);
+  }
+
+  /* pink-white-black */
+  .pink-white-black div:first-child {
+    background-color: rgb(202, 101, 184);
+  }
+  .pink-white-black div:nth-child(2) {
+    background-color: white;
+  }
+  .pink-white-black div:nth-child(3) {
+    background-color:black;
+  }
+
+  /* grey-purple-pink */
+  .grey-purple-pink div:first-child {
+    background-color: rgb(146, 135, 131);
+  }
+  .grey-purple-pink div:nth-child(2) {
+    background-color: rgb(59, 39, 67);
+  }
+  .grey-purple-pink div:nth-child(3) {
+    background-color:rgb(189, 57, 178);
+  }
+
+  /* grey-pink-white */
+  .grey-pink-white div:first-child {
+    background-color: rgb(184, 177, 174);
+  }
+  .grey-pink-white div:nth-child(2) {
+    background-color: rgb(168,96,159);
+  }
+  .grey-pink-white div:nth-child(3) {
+    background-color: white;
+  }
