@@ -21,9 +21,9 @@ body {
 }
 
 .little-text {
-    position: absolute;
-    left: 880px;
-    top: 130px;
+    position: sticky;
+    margin-left: 720px;
+    margin-bottom: -1px;
     font-size: 15px;
 }
 
@@ -31,7 +31,7 @@ body {
   display: grid;
   grid-template-columns: 0.5fr 1fr 1.5fr 2fr 1fr 1.5fr 0.5fr 1fr 1.5fr 2fr 1fr 1.5fr 0.5fr 1fr 1.5fr 2fr 1fr 1.5fr;
   grid-template-rows: 500px;
-  margin: 60px 20px 20px 20px;
+  margin: 20px 20px 20px 20px;
 }
 
 .nest {
