@@ -7,3 +7,4 @@
 * [poster 4](https://cocky-murdock-e9cfa4.netlify.app)
 * [poster 5](https://peaceful-bhabha-bc60a9.netlify.app)
 * [poster 6](https://inspiring-joliot-3c5f26.netlify.app)
+* [poster 7](https://determined-visvesvaraya-edac04.netlify.app)
